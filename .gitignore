@@ -43,3 +43,23 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Generated files (build_runner)
+*.g.dart
+*.freezed.dart
+
+# Android build outputs
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Generated plugin manifests
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Environment
+.env
+.env.*
