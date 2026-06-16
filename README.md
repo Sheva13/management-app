@@ -1,28 +1,28 @@
-# 💰 FinansialKu
+#  FinansialKu
 
 **Aplikasi manajemen keuangan pribadi offline untuk Android.**
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
-### 📊 Dashboard
+###  Dashboard
 - **Sidebar navigasi** dengan desain glassmorphism yang elegan
 - **Ringkasan keuangan real-time** — total pemasukan, pengeluaran, dan saldo
 - **Back button** → halaman lain kembali ke dashboard, double-tap untuk keluar aplikasi
 
-### 💳 Transaksi
+###  Transaksi
 - Catat **pemasukan** dan **pengeluaran** harian
 - Pemasukan **tidak wajib pakai kategori** — lebih fleksibel
 - Filter & cari transaksi dengan mudah
 - Tampilkan berdasarkan tanggal, platform, atau money type
 
-### 📁 Kategori & Platform
+###  Kategori & Platform
 - **Kategori** untuk mengelompokkan pengeluaran (makanan, transportasi, dll)
 - **Platform** — sumber dana (tunai, rekening bank, e-wallet)
 - **Money Type** — jenis mata uang/penyimpanan
 
-### 📈 Anggaran (Budget)
+###  Anggaran (Budget)
 - Tetapkan **budget per kategori** per bulan
 - **Pelacakan real-time** — budget otomatis update saat transaksi ditambahkan
 - **Notifikasi otomatis** saat budget terlampaui
@@ -30,21 +30,21 @@
 - **Budget History** — lihat riwayat budget bulan sebelumnya
 - **Budget Category Detail** — detail transaksi per kategori dengan search & sort
 
-### 🗄️ Database Lokal
+###  Database Lokal
 - Menggunakan **Drift** (SQLite) sebagai database offline
 - **Full database backup & restore** — ekspor/impor database ke file `.sqlite`
 - **Otomatis backup** terjadwal (harian, mingguan, atau bulanan)
 - **Auto-restore** — otomatis mendeteksi backup saat aplikasi dibuka kembali
 - Cadangan tersimpan di folder **Downloads/FinansialKu/** yang mudah diakses
 
-### 📊 Statistik
+###  Statistik
 - **Grafik pengeluaran** berdasarkan kategori
 - **Tren keuangan** bulanan
 - Lihat pola keuangan dari waktu ke waktu
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Teknologi | Keterangan |
 |-----------|------------|
@@ -59,13 +59,13 @@
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > Screenshot akan ditambahkan setelah testing di device
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Flutter SDK >= 3.x
@@ -99,7 +99,7 @@ APK akan tersedia di `build/app/outputs/flutter-apk/app-release.apk`
 
 ---
 
-## 📂 Struktur Proyek
+##  Struktur Proyek
 
 ```
 lib/
@@ -166,7 +166,7 @@ lib/
 
 ---
 
-## ⚙️ Konfigurasi
+##  Konfigurasi
 
 ### Backup & Restore
 - **Lokasi backup:** `Downloads/FinansialKu/`
@@ -181,7 +181,7 @@ lib/
 
 ---
 
-## 📝 Database Schema (v7)
+##  Database Schema (v7)
 
 | Tabel | Keterangan |
 |-------|------------|
@@ -194,7 +194,7 @@ lib/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork repository
 2. Buat branch fitur (`git checkout -b fitur/nama-fitur`)
@@ -204,10 +204,9 @@ lib/
 
 ---
 
-## 📄 License
+##  License
 
 Proyek pribadi — tidak untuk distribusi publik.
 
 ---
 
-**Dibuat dengan ❤️ menggunakan Flutter & Drift**
